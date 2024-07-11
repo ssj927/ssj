@@ -1052,6 +1052,10 @@ body {
   font-size: 18px;
   font-family: 'Noto Serif', 'Noto Serif SC', Sans-serif, Serif;
   color: #1f1235;
+  -webkit-user-select: none /* Safari */;
+  -ms-user-select: none /* IE 10+ and Edge */;
+  -moz-user-select: none /* Firefox */;
+  user-select: none /* Standard syntax */;
 }
 body .main {
   max-width: 1080px;
@@ -1060,7 +1064,7 @@ body .main {
 }
 body .main .main-content {
   background-color: #fff;
-  background-image: url("/img/blog-background.png");
+  background-image: url("img/blog-background.png");
   border-radius: 20px;
   margin: 0 auto;
   padding: 20px 0 40px;
